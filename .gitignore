@@ -83,6 +83,4 @@ ENV/
 # linux系统生成的文件
 *.pid
 nohup.out
-graph/*
-model/*
 config.yaml

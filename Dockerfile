@@ -13,6 +13,7 @@ RUN pip install --no-cache-dir --upgrade pip \
      && pip install --no-cache-dir -r requirements.txt
 
 
+
 ENTRYPOINT ["python3", "tornado_server.py"]
 EXPOSE 19952
 # run command:
